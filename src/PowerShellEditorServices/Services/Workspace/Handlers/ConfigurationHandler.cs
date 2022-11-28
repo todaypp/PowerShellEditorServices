@@ -12,6 +12,7 @@ using Microsoft.PowerShell.EditorServices.Services;
 using Microsoft.PowerShell.EditorServices.Services.Configuration;
 using Newtonsoft.Json.Linq;
 using OmniSharp.Extensions.LanguageServer.Protocol.Models;
+using OmniSharp.Extensions.LanguageServer.Protocol.Serialization;
 using OmniSharp.Extensions.LanguageServer.Protocol.Server;
 using OmniSharp.Extensions.LanguageServer.Protocol.Window;
 using OmniSharp.Extensions.LanguageServer.Protocol.Workspace;
@@ -158,7 +159,7 @@ namespace Microsoft.PowerShell.EditorServices.Handlers
                 ExtensionData = new PsesTelemetryEvent
                 {
                     EventName = "NonDefaultPsesFeatureConfiguration",
-                    Data = JObject.FromObject(configChanges)
+                    Data = JObject.FromObject(configChanges, LspSerializer.Instance.JsonSerializer)
                 }
             });
         }
