@@ -1,0 +1,300 @@
+repo_name: todaypp/PowerShellEditorServices
+report_id: 889338f232860ee51a0974e5bfb81211
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-23T13:13:01+00:00'
+requested_by: andyleejordan
+provider: github
+branch: main
+detected_tools_count: 22
+tools:
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/todaypp/PowerShellEditorServices
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/todaypp/PowerShellEditorServices/blob/main/test/PowerShellEditorServices.Test/PowerShellEditorServices.Test.csproj
+  detection_source: test/PowerShellEditorServices.Test/PowerShellEditorServices.Test.csproj
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-05-22 23:12:54.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/todaypp/PowerShellEditorServices
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/todaypp/PowerShellEditorServices/blob/main/.github/workflows/codeql-analysis.yml
+  detection_source: ".github/workflows/codeql-analysis.yml"
+  last_updated_by: Andy Jordan
+  last_updated_on: 2022-11-10 18:21:15.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/todaypp/PowerShellEditorServices/blob/main/test/PowerShellEditorServices.Test/PowerShellEditorServices.Test.csproj
+  detection_source: test/PowerShellEditorServices.Test/PowerShellEditorServices.Test.csproj
+  last_updated_by: David Wilson
+  last_updated_on: 2015-07-08 22:49:09.000000000 Z
+- name: Serilog
+  description: A portable and structured logging framework to record diagnostic logs
+  website_url: http://serilog.net/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/4283/5691010.png
+  detection_source_url: https://github.com/todaypp/PowerShellEditorServices/blob/main/src/PowerShellEditorServices/PowerShellEditorServices.csproj
+  detection_source: src/PowerShellEditorServices/PowerShellEditorServices.csproj
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-05-22 23:26:13.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/todaypp/PowerShellEditorServices/blob/main/PowerShellEditorServices.sln
+  detection_source: PowerShellEditorServices.sln
+  last_updated_by: Robert Holt
+  last_updated_on: 2019-12-10 23:09:19.000000000 Z
+- name: xUnit
+  description: An open source, community-focused unit testing tool
+  website_url: http://xunit.github.io/
+  version: 2.4.2
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/3077/ca5a327feb49ddfe1f4b11548907e5a1_400x400.png
+  detection_source_url: https://github.com/todaypp/PowerShellEditorServices/blob/main/test/PowerShellEditorServices.Test.E2E/PowerShellEditorServices.Test.E2E.csproj
+  detection_source: test/PowerShellEditorServices.Test.E2E/PowerShellEditorServices.Test.E2E.csproj
+  last_updated_by: Tyler James Leonhardt
+  last_updated_on: 2019-10-03 22:07:34.000000000 Z
+- name: PowerShell
+  description: A task automation and configuration management framework
+  website_url: https://docs.microsoft.com/en-us/powershell/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/todaypp/PowerShellEditorServices
+  detection_source: Repo Metadata
+- name: Microsoft.CSharp
+  description: Provides support for compilation and code generation, including dynamic,
+    using the C# language
+  package_url: https://www.nuget.org/Microsoft.CSharp
+  version: 4.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12845/default_ccf90b566c21ad9eaa59733f297e535ea39fb3b4.png
+  detection_source_url: https://github.com/todaypp/PowerShellEditorServices/blob/main/src/PowerShellEditorServices/PowerShellEditorServices.csproj
+  detection_source: src/PowerShellEditorServices/PowerShellEditorServices.csproj
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-05-22 23:26:13.000000000 Z
+- name: Microsoft.Extensions.FileSystemGlobbing
+  description: File system globbing to find files matching a specified pattern
+  package_url: https://www.nuget.org/Microsoft.Extensions.FileSystemGlobbing
+  version: 7.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13472/default_eb78542773998d1500f13778aa04738ef49376bd.png
+  detection_source_url: https://github.com/todaypp/PowerShellEditorServices/blob/main/src/PowerShellEditorServices/PowerShellEditorServices.csproj
+  detection_source: src/PowerShellEditorServices/PowerShellEditorServices.csproj
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-05-22 23:26:13.000000000 Z
+- name: Microsoft.Extensions.Logging
+  description: Logging infrastructure default implementation for Microsoft.Extensions.Logging
+  package_url: https://www.nuget.org/Microsoft.Extensions.Logging
+  version: 7.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12854/default_ccf90b566c21ad9eaa59733f297e535ea39fb3b4.png
+  detection_source_url: https://github.com/todaypp/PowerShellEditorServices/blob/main/src/PowerShellEditorServices/PowerShellEditorServices.csproj
+  detection_source: src/PowerShellEditorServices/PowerShellEditorServices.csproj
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-05-22 23:26:13.000000000 Z
+- name: Microsoft.PowerShell.SDK
+  description: PowerShell runtime for hosting PowerShell Core
+  package_url: https://www.nuget.org/Microsoft.PowerShell.SDK
+  version: 7.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14476/default_6f8377afd6199f3b11a4df20454d48f1cb3b2f70.png
+  detection_source_url: https://github.com/todaypp/PowerShellEditorServices/blob/main/test/PowerShellEditorServices.Test/PowerShellEditorServices.Test.csproj
+  detection_source: test/PowerShellEditorServices.Test/PowerShellEditorServices.Test.csproj
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-05-22 23:12:54.000000000 Z
+- name: NETStandard.Library
+  description: A set of standard .NET APIs that are prescribed to be used and supported
+    together
+  package_url: https://www.nuget.org/NETStandard.Library
+  version: 2.0.3
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12843/default_0f5233770e71818507f2339042e7e61bef904e70.png
+  detection_source_url: https://github.com/todaypp/PowerShellEditorServices/blob/main/src/PowerShellEditorServices.Hosting/PowerShellEditorServices.Hosting.csproj
+  detection_source: src/PowerShellEditorServices.Hosting/PowerShellEditorServices.Hosting.csproj
+  last_updated_by: Robert Holt
+  last_updated_on: 2019-12-12 21:38:14.000000000 Z
+- name: Newtonsoft.Json
+  description: Json.NET is a popular high-performance JSON framework for .NET
+  package_url: https://www.nuget.org/Newtonsoft.Json
+  version: 13.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/nuget/image.png
+  detection_source_url: https://github.com/todaypp/PowerShellEditorServices/blob/main/test/PowerShellEditorServices.Test.E2E/PowerShellEditorServices.Test.E2E.csproj
+  detection_source: test/PowerShellEditorServices.Test.E2E/PowerShellEditorServices.Test.E2E.csproj
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-05-22 23:12:54.000000000 Z
+- name: Serilog.Extensions.Logging
+  description: Low-level Serilog provider for Microsoft.Extensions.Logging
+  package_url: https://www.nuget.org/Serilog.Extensions.Logging
+  version: 7.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13099/default_9a42ff760d96a634e61dad6d7a7d76e2d1506229.png
+  detection_source_url: https://github.com/todaypp/PowerShellEditorServices/blob/main/src/PowerShellEditorServices/PowerShellEditorServices.csproj
+  detection_source: src/PowerShellEditorServices/PowerShellEditorServices.csproj
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-05-22 23:26:13.000000000 Z
+- name: Serilog.Sinks.Async
+  description: Asynchronous sink wrapper for Serilog
+  package_url: https://www.nuget.org/Serilog.Sinks.Async
+  version: 1.5.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13775/default_38064b97bfe17b99e14fb334e84122134ad69688.png
+  detection_source_url: https://github.com/todaypp/PowerShellEditorServices/blob/main/src/PowerShellEditorServices/PowerShellEditorServices.csproj
+  detection_source: src/PowerShellEditorServices/PowerShellEditorServices.csproj
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-05-22 23:26:13.000000000 Z
+- name: Serilog.Sinks.File
+  description: Write Serilog events to text files in plain or JSON format
+  package_url: https://www.nuget.org/Serilog.Sinks.File
+  version: 5.0.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13085/default_baa6c1c3e725b18a803052f0d13efd0ca49e5d50.png
+  detection_source_url: https://github.com/todaypp/PowerShellEditorServices/blob/main/src/PowerShellEditorServices/PowerShellEditorServices.csproj
+  detection_source: src/PowerShellEditorServices/PowerShellEditorServices.csproj
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-05-22 23:26:13.000000000 Z
+- name: System.Runtime.InteropServices.RuntimeInformation
+  description: Provides APIs to query about runtime and OS information
+  package_url: https://www.nuget.org/System.Runtime.InteropServices.RuntimeInformation
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12960/default_cd4457378b2b3dee674f43707df49edfbc5c04e5.png
+  detection_source_url: https://github.com/todaypp/PowerShellEditorServices/blob/main/src/PowerShellEditorServices.Hosting/PowerShellEditorServices.Hosting.csproj
+  detection_source: src/PowerShellEditorServices.Hosting/PowerShellEditorServices.Hosting.csproj
+  last_updated_by: Andy Jordan
+  last_updated_on: 2023-05-23 00:03:32.000000000 Z
+- name: System.Security.Principal
+  description: Provides the base interfaces for principal and identity objects that
+    represents the security context under which code is running
+  package_url: https://www.nuget.org/System.Security.Principal
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13257/default_cadeaa4a9968284dcd1223273394c410c31c9d09.png
+  detection_source_url: https://github.com/todaypp/PowerShellEditorServices/blob/main/src/PowerShellEditorServices/PowerShellEditorServices.csproj
+  detection_source: src/PowerShellEditorServices/PowerShellEditorServices.csproj
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-06 22:42:50.000000000 Z
+- name: System.Security.Principal.Windows
+  description: Provides classes for retrieving the current Windows user and for interacting
+    with Windows users and groups
+  package_url: https://www.nuget.org/System.Security.Principal.Windows
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13048/default_1b8be57b16f1f491c0e5f67e5d1021f4df68ea30.png
+  detection_source_url: https://github.com/todaypp/PowerShellEditorServices/blob/main/src/PowerShellEditorServices/PowerShellEditorServices.csproj
+  detection_source: src/PowerShellEditorServices/PowerShellEditorServices.csproj
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-06 22:42:50.000000000 Z
+- name: xunit.runner.visualstudio
+  description: Visual Studio 2012+ Test Explorer runner for the xUnit.net framework
+  package_url: https://www.nuget.org/xunit.runner.visualstudio
+  version: 2.4.5
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13260/default_d2db5a200c4fe2d08cbdb2174cc230708973870b.png
+  detection_source_url: https://github.com/todaypp/PowerShellEditorServices/blob/main/test/PowerShellEditorServices.Test.E2E/PowerShellEditorServices.Test.E2E.csproj
+  detection_source: test/PowerShellEditorServices.Test.E2E/PowerShellEditorServices.Test.E2E.csproj
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-08-02 20:58:19.000000000 Z
